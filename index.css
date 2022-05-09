@@ -5,3 +5,26 @@ body {
 main {
     background-color: #D4A373;
 }
+
+.card-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ffffff;
+}
+
+.col-img:hover .card-img-overlay {
+    opacity: 1;
+}

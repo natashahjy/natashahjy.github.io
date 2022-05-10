@@ -49,10 +49,10 @@ body {
 .card-img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
-.card-img-overlay {
+.custom-overlay {
     height: 100%;
     width: 100%;
     opacity: 0;
@@ -60,6 +60,6 @@ body {
     background-color: #ffffff;
 }
 
-.col-img:hover .card-img-overlay {
+.col-img:hover .custom-overlay {
     opacity: 1;
 }

@@ -2,10 +2,48 @@ body {
     background-color: #FFC8DD;
 }
 
-main {
+.noticeboard {
     opacity: 0.8;
     background-image: radial-gradient(#000000 0.5px, #e5e5f7 0.5px);
     background-size: 10px 10px;
+}
+
+.left-line-box {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.left-line {
+    width: calc(1.414 * 100px);
+    transform: rotate(-45deg);
+    transform-origin: bottom left;
+    border-top: 1px solid #000000;
+    position: absolute;
+    bottom: -2px;
+    left: -1px;
+    box-sizing: border-box;
+}
+
+.right-line-box {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.right-line {
+    width: calc(1.414 * 100px);
+    transform: rotate(45deg);
+    transform-origin: top left;
+    border-top: 1px solid #000000;
+    position: absolute;
+    top: -2px;
+    left: -1px;
+    box-sizing: border-box;
 }
 
 .card-img {

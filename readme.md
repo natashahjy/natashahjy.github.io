@@ -11,3 +11,5 @@
 - [Diagonal Line](https://programmersportal.com/how-to-draw-a-diagonal-line-using-css/)
 - [CSS Background Patterns](https://www.magicpattern.design/tools/css-backgrounds)
 - [Lorem Picsum](https://picsum.photos/)
+- [aria-controls](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-controls)
+- [Card with Nav Tabs](https://codepen.io/cristinaconacel/pen/ePVMME)

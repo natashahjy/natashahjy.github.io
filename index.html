@@ -69,13 +69,40 @@
           <div class="card text-dark bg-light mb-3">
             <img src="https://picsum.photos/800/400" class="card-img" alt="sample image">
             <div class="card-img-overlay custom-overlay">
-              <h5 class="card-title"><i class="bi bi-pencil"></i> Projects Summary</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Project 1</h6>
-              <p class="card-text">Some description</p>
-              <h6 class="card-subtitle mb-2 text-muted">Project 2</h6>
-              <p class="card-text">Some description</p>
-              <h6 class="card-subtitle mb-2 text-muted">Project 3</h6>
-              <p class="card-text">Some description</p>
+              <!--Projects Summary-->
+              <div class="card-header">
+                <!--Cards Navigation-->
+                <ul class="nav nav-tabs card-header-tabs" id="project-summary">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-selected="true" aria-controls="university" href="#university">University</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-selected="false" aria-controls="polytechnic" href="#polytechnic">Polytechnic</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-selected="false" aria-controls="internship" href="#internship">Internship</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Cards Navigation Content-->
+              <div class="card-body">
+                <h5 class="card-title"><i class="bi bi-pencil"></i> Projects Summary</h5>
+                <div class="tab-content mt-3">
+                  <div class="tab-pane active" id="university" role="tabpanel">
+                    <h6 class="card-subtitle mb-2 text-muted">FYP</h6>
+                    <p class="card-text">Some description</p>
+                  </div>
+                  <div class="tab-pane" id="polytechnic" role="tabpanel">
+                    <h6 class="card-subtitle mb-2 text-muted">iOS Mobile App</h6>
+                    <p class="card-text">Some description</p>
+                  </div>
+                  <div class="tab-pane" id="internship" role="tabpanel">
+                    <h6 class="card-subtitle mb-2 text-muted">URA</h6>
+                    <p class="card-text">Some description</p>
+                  </div>
+                </div>
+               
+              </div>
             </div>
           </div>
         </div>

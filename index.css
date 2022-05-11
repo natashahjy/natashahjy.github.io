@@ -46,6 +46,10 @@ body {
     box-sizing: border-box;
 }
 
+.img-profile {
+    border-radius: 50%;
+}
+
 .custom-overlay {
     height: 100%;
     width: 100%;

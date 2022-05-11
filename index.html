@@ -74,32 +74,32 @@
                 <!--Cards Navigation-->
                 <ul class="nav nav-tabs card-header-tabs" id="projects">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-selected="true" aria-controls="university"
-                      href="#university">University</a>
+                    <a class="nav-link active" id="university-tab" data-bs-toggle="tab" data-bs-target="#university"
+                      role="tab" aria-selected="true" aria-controls="university" href="#university">University</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" aria-selected="false" aria-controls="polytechnic"
-                      href="#polytechnic">Polytechnic</a>
+                    <a class="nav-link" id="university-tab" data-bs-toggle="tab" data-bs-target="#polytechnic"
+                      role="tab" aria-selected="false" aria-controls="polytechnic" href="#polytechnic">Polytechnic</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" aria-selected="false" aria-controls="internship"
-                      href="#internship">Internship</a>
+                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#internship" role="tab"
+                      aria-selected="false" aria-controls="internship" href="#internship">Internship</a>
                   </li>
                 </ul>
               </div>
               <!--Cards Navigation Content-->
               <div class="card-body">
                 <h5 class="card-title"><i class="bi bi-pencil"></i> Projects Summary</h5>
-                <div class="tab-content mt-3">
-                  <div class="tab-pane active" id="university" role="tabpanel">
+                <div class="tab-content">
+                  <div class="tab-pane active" id="university" role="tabpanel" aria-labelledby="university-tab">
                     <h6 class="card-subtitle mb-2 text-muted">FYP</h6>
                     <p class="card-text">Some description</p>
                   </div>
-                  <div class="tab-pane" id="polytechnic" role="tabpanel">
+                  <div class="tab-pane" id="polytechnic" role="tabpanel" aria-labelledby="polytechnic-tab">
                     <h6 class="card-subtitle mb-2 text-muted">iOS Mobile App</h6>
                     <p class="card-text">Some description</p>
                   </div>
-                  <div class="tab-pane" id="internship" role="tabpanel">
+                  <div class="tab-pane" id="internship" role="tabpanel" aria-labelledby="internship-tab">
                     <h6 class="card-subtitle mb-2 text-muted">URA</h6>
                     <p class="card-text">Some description</p>
                   </div>

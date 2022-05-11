@@ -6,6 +6,7 @@
 
 ###### Libraries Used
 - [Bootstrap](https://getbootstrap.com/)
+- [Bootstrap Icons](https://icons.getbootstrap.com/)
 
 ###### Resources & Help
 - [Diagonal Line](https://programmersportal.com/how-to-draw-a-diagonal-line-using-css/)

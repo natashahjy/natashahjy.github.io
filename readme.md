@@ -1,5 +1,5 @@
 ## Natasha's Portfolio
-*A work in progress*
+Online web portfolio
 
 ###### Constructed With
 - HTML, CSS, Bootstrap

@@ -14,7 +14,7 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
   <!--Custom css-->
-  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="styles/index.css" id="theme-link">
 
   <title>Welcome!</title>
 </head>
@@ -51,7 +51,7 @@
       <!--Noticeboard-->
       <div class="row gy-3">
         <div class="col-4 col-img">
-          <div class="card text-dark bg-light mb-3">
+          <div class="card text-dark mb-3">
             <img src="https://picsum.photos/800" class="img-fluid" alt="sample image">
             <div class="card-img-overlay custom-overlay overflow-auto">
               <div class="row gy-0">
@@ -182,7 +182,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card text-dark bg-light mb-3">
+          <div class="card text-dark mb-3">
             <!--Soft Skills-->
             <div class="card-body">
               <h5 class="card-title"><i class="bi bi-chat"></i> Soft Skills</h5>
@@ -198,6 +198,11 @@
       <footer class="py-3 my-4">
         <p class="text-center">best viewed on desktop view | mobile view landscape orientation </p>
         <p class="text-center">2022 natashahjy | built from scratch </p>
+        <!--Change theme-->
+        <div class="form-check form-switch row">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchToggle">
+          <label class="form-check-label" for="flexSwitchToggle">Toggle Dark/Light mode</label>
+        </div>
       </footer>
     </div>
   </main>
@@ -207,6 +212,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+  <script src="js/dark-mode.js"></script>
 
 </body>
 

@@ -15,3 +15,4 @@ Online web portfolio
 - [aria-controls](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-controls)
 - [Card with Nav Tabs](https://codepen.io/cristinaconacel/pen/ePVMME)
 - [Nav Tabs](https://getbootstrap.com/docs/5.1/components/navs-tabs/#javascript-behavior)
+- [Checkbox Event Listener](https://stackoverflow.com/questions/14544104/checkbox-check-event-listener)

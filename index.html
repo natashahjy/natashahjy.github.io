@@ -1,243 +1,370 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
 
-  <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Custom css-->
+    <link rel="stylesheet" href="styles/index.css" id="theme-link" />
 
-  <!--Custom css-->
-  <link rel="stylesheet" href="styles/index.css" id="theme-link">
+    <title>Welcome!</title>
+  </head>
 
-  <title>Welcome!</title>
-</head>
-
-<body>
-  <header>
-    <div class="container">
-      <div class="row g-3">
-        <div class="col-12">
-          <h1>Natashahjy's Portfolio</h1>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-12">
+            <h1>Natashahjy's Portfolio</h1>
+          </div>
         </div>
-      </div>
-      <div class="row g-3">
-        <div class="col-12">
-          <p>Hover over image cards</p>
+        <div class="row g-3">
+          <div class="col-12">
+            <p>Hover over image cards</p>
+          </div>
         </div>
-      </div>
-      <div class="row g-3">
-        <div class="col-12">
-          <!--Change theme-->
-          <div class="form-check form-switch">
-            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchToggle">
-            <label class="form-check-label" for="flexSwitchToggle">Toggle Dark/Light mode</label>
+        <div class="row g-3">
+          <div class="col-12">
+            <!--Change theme-->
+            <div class="form-check form-switch">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                role="switch"
+                id="flexSwitchToggle"
+              />
+              <label class="form-check-label" for="flexSwitchToggle"
+                >Toggle Dark/Light mode</label
+              >
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <main>
-    <div class="container">
-      <!--Noticeboard's 'Strings'-->
-      <div class="row justify-content-center">
-        <div class="col-6 left-line-box">
-          <div class="left-line"></div>
-        </div>
-        <div class="col-6 right-line-box">
-          <div class="right-line"></div>
+    <main>
+      <div class="container">
+        <!--Noticeboard's 'Strings'-->
+        <div class="row justify-content-center">
+          <div class="col-6 left-line-box">
+            <div class="left-line"></div>
+          </div>
+          <div class="col-6 right-line-box">
+            <div class="right-line"></div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="container noticeboard">
-      <!--Noticeboard-->
-      <div class="row gy-3">
-        <div class="col-4 col-img">
-          <div class="card text-dark mb-3">
-            <img src="https://picsum.photos/800" class="img-fluid" alt="sample image">
-            <div class="card-img-overlay custom-overlay overflow-auto">
-              <div class="row gy-0">
-                <div class="col-md-4">
-                  <!--Profile Photo-->
-                  <img src="assets/photo-profile.jpg" class="card-img-top img-profile" alt="image of me">
+      <div class="container noticeboard">
+        <!--Noticeboard-->
+        <div class="row gy-3">
+          <div class="col-4 col-img">
+            <div class="card text-dark mb-3">
+              <img
+                src="https://picsum.photos/800"
+                class="img-fluid"
+                alt="sample image"
+              />
+              <div class="card-img-overlay custom-overlay overflow-auto">
+                <div class="row gy-0">
+                  <div class="col-md-4">
+                    <!--Profile Photo-->
+                    <img
+                      src="assets/photo-profile.jpg"
+                      class="card-img-top img-profile"
+                      alt="image of me"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <!--About-->
+                    <h5 class="card-title">
+                      <i class="bi bi-person-circle"></i> About
+                    </h5>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item list-group-item-info">
+                        Front End Web Developer
+                      </li>
+                      <li class="list-group-item">
+                        Build user friendly and responsive websites
+                      </li>
+                      <li class="list-group-item list-group-item-info">
+                        Loves to make fun mini projects
+                      </li>
+                      <li class="list-group-item">
+                        Interest in gaming & making games
+                      </li>
+                      <li class="list-group-item list-group-item-info">
+                        Computer Science Graduate '21
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                <div class="col-md-8">
-                  <!--About-->
-                  <h5 class="card-title"><i class="bi bi-person-circle"></i> About</h5>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item list-group-item-info">Front End Web Developer</li>
-                    <li class="list-group-item">Build user friendly and responsive websites</li>
-                    <li class="list-group-item list-group-item-info">Loves to make fun mini projects</li>
-                    <li class="list-group-item">Interest in gaming & making games</li>
-                    <li class="list-group-item list-group-item-info">Computer Science Graduate '21</li>
+              </div>
+            </div>
+          </div>
+          <div class="col-8 col-img">
+            <div class="card text-dark bg-light mb-3">
+              <img
+                src="https://picsum.photos/800/400"
+                class="img-fluid"
+                alt="sample image"
+              />
+              <div class="card-img-overlay custom-overlay overflow-auto">
+                <!--Projects Summary-->
+                <div class="card-header">
+                  <!--Cards Navigation-->
+                  <ul class="nav nav-tabs card-header-tabs" id="projects">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        id="university-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#university"
+                        role="tab"
+                        aria-selected="true"
+                        aria-controls="university"
+                        href="#university"
+                        >University</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        id="university-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#polytechnic"
+                        role="tab"
+                        aria-selected="false"
+                        aria-controls="polytechnic"
+                        href="#polytechnic"
+                        >Polytechnic</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        data-bs-toggle="tab"
+                        data-bs-target="#internship"
+                        role="tab"
+                        aria-selected="false"
+                        aria-controls="internship"
+                        href="#internship"
+                        >Internship</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        data-bs-toggle="tab"
+                        data-bs-target="#fulltime"
+                        role="tab"
+                        aria-selected="false"
+                        aria-controls="fulltime"
+                        href="#fulltime"
+                        >Full Time</a
+                      >
+                    </li>
                   </ul>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-8 col-img">
-          <div class="card text-dark bg-light mb-3">
-            <img src="https://picsum.photos/800/400" class="img-fluid" alt="sample image">
-            <div class="card-img-overlay custom-overlay overflow-auto">
-              <!--Projects Summary-->
-              <div class="card-header">
-                <!--Cards Navigation-->
-                <ul class="nav nav-tabs card-header-tabs" id="projects">
-                  <li class="nav-item">
-                    <a class="nav-link active" id="university-tab" data-bs-toggle="tab" data-bs-target="#university"
-                      role="tab" aria-selected="true" aria-controls="university" href="#university">University</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" id="university-tab" data-bs-toggle="tab" data-bs-target="#polytechnic"
-                      role="tab" aria-selected="false" aria-controls="polytechnic" href="#polytechnic">Polytechnic</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#internship" role="tab"
-                      aria-selected="false" aria-controls="internship" href="#internship">Internship</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#fulltime" role="tab"
-                      aria-selected="false" aria-controls="fulltime" href="#fulltime">Full Time</a>
-                  </li>
-                </ul>
-              </div>
-              <!--Cards Navigation Content-->
-              <div class="card-body">
-                <h5 class="card-title"><i class="bi bi-pencil"></i> Projects Summary</h5>
-                <div class="tab-content">
-                  <div class="tab-pane active" id="university" role="tabpanel" aria-labelledby="university-tab">
-                    <h6 class="card-subtitle mb-2 text-muted">Intrusion Detection System</h6>
-                    <ul>
-                      <li class="card-text">Web-based application dashboard for Network Administrators to analyze
-                        network security risk more effectively.</li>
-                      <li class="card-text">Front End Development: HTML, CSS, JS</li>
-                      <li class="card-text">Back End Development: C++, MySQL, Snort</li>
-                      <li class="card-text">Guided pre-production, production and post-production in a team of 5 in the
-                        span of 20 weeks</li>
-                    </ul>
-                  </div>
-                  <div class="tab-pane" id="polytechnic" role="tabpanel" aria-labelledby="polytechnic-tab">
-                    <h6 class="card-subtitle mb-2 text-muted">Family Friendly Restaurants and Cafes Ionic App</h6>
-                    <ul>
-                      <li class="card-text">
-                        Situation: Parents would like to find restaurants and cafes that accommodate to their family
-                        needs - children. Such as: kids menu, baby high chair, kids utensils & etc.
-                      </li>
-                      <li class="card-text">
-                        Solution: An application that allows parents (the users) to search for restaurants and cafes
-                        (food places) that can be further filtered based criterias.
-                      </li>
-                      <li class="card-text">
-                        Ionic Framework, Cordova, Prototype
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="tab-pane" id="internship" role="tabpanel" aria-labelledby="internship-tab">
-                    <h6 class="card-subtitle mb-2 text-muted">URA ePlanner</h6>
-                    <ul>
-                      <li class="card-text">
-                        ePlanner is a one-stop, multi-platform, geospatial urban planning analytics system for planners.
-                        Integrates data from various sources to enable adavanced spatial visualisation and big data
-                        analytics.
-                      </li>
-                      <li class="card-text">
-                        Working in digital planning lab in URA has given me the opportunity to apply geospatial theory
-                        concepts and technical skills through implementation of new features and enhancing features that
-                        were already in the application
-                      </li>
-                      <li class="card-text">
-                        Technical Skills: C3.js, Mocha.js, React.js, CSS3, Bootstrap 4, Leaflet.js, Node.js, Git,
-                        Arcanist
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="tab-pane" id="fulltime" role="tabpanel" aria-labelledby="fulltime-tab">
-                    <h6 class="card-subtitle mb-2 text-muted">IDEMIA e-console & e-marshal</h6>
-                    <ul>
-                      <li class="card-text">
-                       App description: 
-                       e-console & e-marshal
-                       Gantries in T1-T4 & custom checkpoints
-                      </li>
-                      <li class="card-text">
-                        Task that I've done: 
-                        Working as a Full Stack Web Developer in IDEMIA
-                        Contributing to enchancements and bug fixes to existing code base
-                        Creation of new application pull data logs and display data
-                        Supporting old repository version of application 
-                      </li>
-                      <li class="card-text">
-                        Technical Skills: Angular.js, Node.js, Git, SoapUI
-                      </li>
-                    </ul>
+                <!--Cards Navigation Content-->
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="bi bi-pencil"></i> Projects Summary
+                  </h5>
+                  <div class="tab-content">
+                    <div
+                      class="tab-pane active"
+                      id="university"
+                      role="tabpanel"
+                      aria-labelledby="university-tab"
+                    >
+                      <h6 class="card-subtitle mb-2 text-muted">
+                        Intrusion Detection System
+                      </h6>
+                      <ul>
+                        <li class="card-text">
+                          Web-based application dashboard for Network
+                          Administrators to analyze network security risk more
+                          effectively.
+                        </li>
+                        <li class="card-text">
+                          Front End Development: HTML, CSS, JS
+                        </li>
+                        <li class="card-text">
+                          Back End Development: C++, MySQL, Snort
+                        </li>
+                        <li class="card-text">
+                          Guided pre-production, production and post-production
+                          in a team of 5 in the span of 20 weeks
+                        </li>
+                      </ul>
+                    </div>
+                    <div
+                      class="tab-pane"
+                      id="polytechnic"
+                      role="tabpanel"
+                      aria-labelledby="polytechnic-tab"
+                    >
+                      <h6 class="card-subtitle mb-2 text-muted">
+                        Family Friendly Restaurants and Cafes Ionic App
+                      </h6>
+                      <ul>
+                        <li class="card-text">
+                          Situation: Parents would like to find restaurants and
+                          cafes that accommodate to their family needs -
+                          children. Such as: kids menu, baby high chair, kids
+                          utensils & etc.
+                        </li>
+                        <li class="card-text">
+                          Solution: An application that allows parents (the
+                          users) to search for restaurants and cafes (food
+                          places) that can be further filtered based criterias.
+                        </li>
+                        <li class="card-text">
+                          Ionic Framework, Cordova, Prototype
+                        </li>
+                      </ul>
+                    </div>
+                    <div
+                      class="tab-pane"
+                      id="internship"
+                      role="tabpanel"
+                      aria-labelledby="internship-tab"
+                    >
+                      <h6 class="card-subtitle mb-2 text-muted">
+                        URA ePlanner
+                      </h6>
+                      <ul>
+                        <li class="card-text">
+                          ePlanner is a one-stop, multi-platform, geospatial
+                          urban planning analytics system for planners.
+                          Integrates data from various sources to enable
+                          adavanced spatial visualisation and big data
+                          analytics.
+                        </li>
+                        <li class="card-text">
+                          Opportunity to apply geospatial theory concepts
+                          and technical skills through implementation of new
+                          features and enhancing features that were already in
+                          the application
+                        </li>
+                        <li class="card-text">
+                          Technical Skills: C3.js, Mocha.js, React.js, CSS3,
+                          Bootstrap 4, Leaflet.js, Node.js, Git, Arcanist
+                        </li>
+                      </ul>
+                    </div>
+                    <div
+                      class="tab-pane"
+                      id="fulltime"
+                      role="tabpanel"
+                      aria-labelledby="fulltime-tab"
+                    >
+                      <h6 class="card-subtitle mb-2 text-muted">
+                        e-console & e-marshal
+                      </h6>
+                      <ul>
+                        <li class="card-text">
+                          Technical Skills: Angular.js, Node.js, Git, SoapUI
+                        </li>
+                      </ul>
+                      <h6 class="card-subtitle mb-2 text-muted">
+                        LTA MOVE 
+                      </h6>
+                      <ul>
+                        <li class="card-text">iOS Application</li>
+                        <li class="card-text">
+                          Technical Skills: Swift
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
+        <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3">
+          <div class="col">
+            <!--Technical Skills-->
+            <div class="card text-dark bg-warning mb-3">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <i class="bi bi-hammer"></i> Technical Skills
+                </h5>
+                <h6 class="card-subtitle mb-2 text">Most comfortable with</h6>
+                <p class="card-text">HTML, CSS, JS, Bootstrap</p>
+                <h6 class="card-subtitle mb-2 text">Others</h6>
+                <p class="card-text">Java, C++, Python, C#, MySQL</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <!--Contact-->
+            <div class="card text-dark bg-info mb-3">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <i class="bi bi-envelope"></i> Contact
+                </h5>
+                <a href="https://github.com/natashahjy" title="Github"
+                  ><i class="bi bi-github text-dark"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/natashahengjy/"
+                  title="LinkedIn"
+                  ><i class="bi bi-linkedin text-dark"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-dark mb-3">
+              <!--Soft Skills-->
+              <div class="card-body">
+                <h5 class="card-title">
+                  <i class="bi bi-chat"></i> Soft Skills
+                </h5>
+                <p class="card-text">
+                  Meticulous, Planner, Leader, Team Player
+                </p>
+                <h6 class="card-subtitle mb-2 text">Languages</h6>
+                <p class="card-text">English, Mandarin</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3">
-        <div class="col">
-          <!--Technical Skills-->
-          <div class="card text-dark bg-warning mb-3">
-            <div class="card-body">
-              <h5 class="card-title"><i class="bi bi-hammer"></i> Technical Skills</h5>
-              <h6 class="card-subtitle mb-2 text">Most comfortable with</h6>
-              <p class="card-text">HTML, CSS, JS, Bootstrap</p>
-              <h6 class="card-subtitle mb-2 text">Others</h6>
-              <p class="card-text">Java, C++, Python, C#, MySQL</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <!--Contact-->
-          <div class="card text-dark bg-info mb-3">
-            <div class="card-body">
-              <h5 class="card-title"><i class="bi bi-envelope"></i> Contact</h5>
-              <a href="https://github.com/natashahjy" title="Github"><i class="bi bi-github text-dark"></i></a>
-              <a href="https://www.linkedin.com/in/natashahengjy/" title="LinkedIn"><i
-                  class="bi bi-linkedin text-dark"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card text-dark mb-3">
-            <!--Soft Skills-->
-            <div class="card-body">
-              <h5 class="card-title"><i class="bi bi-chat"></i> Soft Skills</h5>
-              <p class="card-text">Meticulous, Planner, Leader, Team Player</p>
-              <h6 class="card-subtitle mb-2 text">Languages</h6>
-              <p class="card-text">English, Mandarin</p>
-            </div>
-          </div>
-        </div>
+      <div class="container">
+        <footer class="py-3 my-4">
+          <p class="text-center">
+            best viewed on desktop view | mobile view landscape orientation
+          </p>
+          <p class="text-center">2022 natashahjy | built from scratch</p>
+        </footer>
       </div>
-    </div>
-    <div class="container">
-      <footer class="py-3 my-4">
-        <p class="text-center">best viewed on desktop view | mobile view landscape orientation </p>
-        <p class="text-center">2022 natashahjy | built from scratch </p>
-      </footer>
-    </div>
-  </main>
+    </main>
 
-
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-  <script src="js/dark-mode.js"></script>
-
-</body>
-
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/dark-mode.js"></script>
+  </body>
 </html>

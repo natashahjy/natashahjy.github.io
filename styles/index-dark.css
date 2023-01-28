@@ -1,68 +1,73 @@
 body {
-    background-color: #232946;
-    color: #FFFFFE;
+  background-color: #232946;
+  color: #fffffe;
 }
 
 .noticeboard {
-    opacity: 0.8;
-    background-image: radial-gradient(#e5e5f7 0.5px, #34495E 0.5px);
-    background-size: 10px 10px;
+  opacity: 0.8;
+  background-image: radial-gradient(#e5e5f7 0.5px, #000000 0.5px);
+  background-size: 10px 10px;
 }
 
 .left-line-box {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    box-sizing: border-box;
-    overflow: hidden;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .left-line {
-    width: calc(2.5 * 100px);
-    transform: rotate(-45deg);
-    transform-origin: bottom left;
-    border-top: 1px solid #EEBBc3;
-    position: absolute;
-    bottom: -2px;
-    left: -1px;
-    box-sizing: border-box;
+  width: calc(2.5 * 100px);
+  transform: rotate(-45deg);
+  transform-origin: bottom left;
+  border-top: 1px solid #ffffff;
+  position: absolute;
+  bottom: -2px;
+  left: -1px;
+  box-sizing: border-box;
 }
 
 .right-line-box {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    box-sizing: border-box;
-    overflow: hidden;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .right-line {
-    width: calc(2.5 * 100px);
-    transform: rotate(45deg);
-    transform-origin: top left;
-    border-top: 1px solid #EEBBc3;
-    position: absolute;
-    top: -2px;
-    left: -1px;
-    box-sizing: border-box;
+  width: calc(2.5 * 100px);
+  transform: rotate(45deg);
+  transform-origin: top left;
+  border-top: 1px solid #ffffff;
+  position: absolute;
+  top: -2px;
+  left: -1px;
+  box-sizing: border-box;
 }
 
 .img-profile {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .card {
-    background-color: #B8C1EC;
+  background-color: #ffffff;
+}
+
+.bg-info {
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .custom-overlay {
-    height: inherit;
-    width: inherit;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #B8C1EC;
+  height: inherit;
+  width: inherit;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #ffffff;
 }
 
 .col-img:hover .custom-overlay {
-    opacity: 1;
+  opacity: 1;
 }
